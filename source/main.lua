@@ -25,6 +25,7 @@ comicData = myComicData
 -- SETTINGS:
 -- change any settings before calling `start()`
 Panels.Settings.showMenuOnLaunch = true
+-- Panels.Settings.useChapterMenu = false
 
 
 -- START:

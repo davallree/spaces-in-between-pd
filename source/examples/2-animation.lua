@@ -5,7 +5,7 @@ example2a = { -- sequence 1
 	panels = {
 		{ -- panel 1
 			layers = {
-				{ text = "Example 2A", x = 50, y = 100 },
+				{ text = "Example 2A", x = 50, y = 100,  effect = { type = Panels.Effect.TYPE_ON, duration = 500 } },
 				{ text = "Animate by *scroll position*", x = 50, y = 130 }
 			}
 		},

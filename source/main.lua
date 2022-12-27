@@ -24,8 +24,14 @@ comicData = myComicData
 
 -- SETTINGS:
 -- change any settings before calling `start()`
+Panels.Audio.TypingSound = "audio/audiofolder/tsib-tpying.wav"
 Panels.Settings.showMenuOnLaunch = true
--- Panels.Settings.useChapterMenu = false
+Panels.Settings.snapToPanels = true
+Panels.Settings.skipMenuOnFirstLaunch = true
+Panels.Settings.borderRadius = 12
+-- Panels.Settings.defaultFont = "images/fonts/ab-cap"
+Panels.Settings.useChapterMenu = true
+Panels.Settings.audioFolder = ""
 
 
 -- START:
